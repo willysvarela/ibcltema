@@ -40,16 +40,41 @@ img, .full-width{
 
 
 .btn{
-	color: #404040;
 	padding: 15px 20px 15px 20px;
-	border: 1px solid #16a085;
-	border-radius: 9px;
+	/*border: 1px solid #16a085;
+	border-radius: 9px;*/
+	border-bottom: 2px solid #262626;
 	background: #ccc;	
 	transition: .5s;
 }	
 	.btn:hover{
+		background: #474747;
+	}
+.button{
+	padding: 15px 20px 15px 20px;
+	color: #fff;
+	border-radius: 5px;
+	border-bottom: 3px solid #34495e;
+	background: #ccc;
+}
+	.button:hover{
+		background: #adadad;
+		border-bottom-color: #34495e;
+		color: #fff;
+	}
 
-		background: #16a085;
+
+.button-primary{
+	background: #3498db;
+}
+	.button-primary:hover{
+		background: #2980b9;
+	}
+.button-success{
+	background: #1abc9c;
+}
+	.button-primary:hover{
+		background: #2980b9;
 	}
 
 
@@ -88,6 +113,7 @@ margin-right: 0px;
 		border-bottom: 2px solid #404040;	
 
 	}
+
 
 
 .text-white *{

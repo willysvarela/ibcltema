@@ -22,7 +22,7 @@ get_header('');
 						<div>
 							<label for="txtEmail">Mensagem</label>
 							<textarea type="text" class="form-control" id="txtEmail" placeholder="Escreva aqui sua dúvida, opinião, ou sugestão. Ficaremos felizes em receber seu feedback"></textarea>
-							<input type="submit" value="Enviar" class="btn btn-success" />
+							<input type="submit" value="Enviar" class="button button-success" />
 						</div>
 					</form>
 				</div>

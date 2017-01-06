@@ -17,7 +17,7 @@ get_header();
 			</div>
 			<br/>
 			<div>
-				<a class="btn btn-primary" href="#">Conheça a Central Leste</a>
+				<a class="button button-primary" href="#">Conheça a Central Leste</a>
 			</div>
 		</div>
 	</header>
