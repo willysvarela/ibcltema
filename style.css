@@ -1,0 +1,320 @@
+
+
+*{
+	font-family: 'Circular Std Book' ;
+	font-size: 16px;
+}
+body{
+	border-top: 5px solid #16a085;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Circular Std Book' !important;
+}
+
+main *{
+font-family: 'Work Sans', sans-serif;
+}
+
+ul{
+	list-style: none;
+}
+
+
+html, body, .full-height{
+	height: 100%;
+}
+
+.header-primary{
+	height: 700px;
+}
+header{
+	background: url('assets/img/bg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	color: #fff !important;
+}
+nav{
+	transition: background .5s;
+	margin-top: 20px !important;
+}
+.navbar{
+	border: none !important;
+	border-radius: 0px !important;
+	/*font-family: "Impact";*/
+	letter-spacing: 0.9px;
+	padding: 20px 0px 20px 0px;
+}
+
+	.navbar-bg{
+		background: #404040 !important;
+		/*border-bottom: 3px solid rgba(0,0,0,0.5) !important;*/
+		box-shadow: 0px 1px 10px rgba(0,0,0,0.5);
+	}
+
+.navbar .navbar-brand{
+	width: 150px;
+    margin-top: -35px;
+    border: none;
+}
+.navbar .navbar-brand:hover{
+	border: none;
+}
+
+
+
+.navbar a{
+	color: #fff !important;
+	font-size: 16px;
+	border-bottom: 2px solid rgba(1,1,1,0);
+	/*border-top: 2px solid rgba(0,0,0,0);*/
+	transition: .5s;
+
+}
+	.navbar a:hover{
+		border-bottom: 2px solid #fff;
+		/*border-top: 2px solid #404040;*/
+		background: none !important;
+	}
+
+.navbar-toggle .icon-bar{
+	background: #fff;
+}
+	.dropdown-menu{
+		background: rgba(0,0,0,0.1);
+	}
+	.dropdown-menu li a {
+	    padding: 5px 20px;
+    	color: #fff !important;
+    	border: none !important;
+	}
+
+	.dropdown-menu li a:hover{
+		background: rgba(1,1,1,0.3) !important;
+	}
+
+
+/**/
+header.header-secondary{
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 40px;
+	margin-top: -30px;
+	min-height: 200px;
+
+}
+	header.header-secondary nav{
+		background: none;
+	}
+
+header.header-primary .header--slogan{
+	padding-top: 20% !important;
+	text-align: center;
+}
+header.header-secondary .header--slogan{
+	padding-top: 120px;
+	text-align: center;
+
+}
+
+
+
+.header--slogan .page-title span{
+	font-family: 'ffad_matroregular';
+	font-size: 5em !important;
+}
+.header--slogan .page-subtitle span{
+	font-family: 'ffad_matroregular';
+	font-size: 3em !important;
+}
+
+main{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+section{
+	padding: 50px 0px 50px 0px;
+}
+.sec-title *{
+	font-family: 'Dense' !important;
+}
+.sec-title h1{
+	font-size: 5em;
+	text-align: center;
+}
+.sec-title h2{
+	font-size: 3em;
+	text-align: center;
+}
+
+.container{
+	width: 95% !important;
+}
+.container .title{
+	text-align: center;
+	margin-top: 0px;
+	font-size: 2.5em;
+	/*font-family: 'Bebas' !important;*/
+	letter-spacing: 1.1px;
+}
+.container .subtitle{
+	font-size: 1em;
+	text-align: center;
+	margin-top: 0px;
+}
+
+
+
+footer{
+	background: #404040;
+	min-height: 200px;    
+    color: #fff;
+}
+
+.footer{
+    background: none !important;
+}
+
+.footer ul li{
+	font-size: 1em;	
+}
+.footer ul .primary{
+	font-size: 1.2em;
+}
+
+
+@media screen and (max-width:767px){
+	html, body, .header-primary{
+		min-height: 100%;
+		max-height: auto; 
+	}	
+	header{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	}
+		.header-primary .header--slogan{
+			padding-top: 20% !important;
+		}
+
+	nav{
+		background: none !important;
+	}
+
+	.navbar-collapse{
+		background: rgba(0,0,0,0.8);
+	}
+	.navbar-collapse a{
+		border: none;
+		color: #fff !important;
+	}
+	.navbar-collapse a:hover{
+		border: none;
+	}
+	.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+		background-color: rgba(0,0,0,0.8);
+	}
+	nav .dropdown-menu{
+		background: rgba(0,0,0,0.8);
+	}
+
+	.sec-eventos *{
+		text-align: center !important;
+	}
+	.block  .block-p{
+		top: 20%; 
+	}
+}
+
+
+
+.div-mensagem{
+	margin: 20px
+}
+.div-mensagem .mensagem-thumbnail img{
+	width: 100%;
+	height: 100%;
+}
+.div-mensagem .mensagem-download img{
+	margin-top: 13px;
+	height: 50px;
+	width: 50px;
+}
+
+.div-mensagem .mensagem-titulo{
+	font-size: 1.112em;
+}
+
+.div-mensagem .mensagem-conteudo{
+	font-size: 12px;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+  .footer{
+}
+ }
+/* 
+ Com uma largura mínima de 992 pixels. Monitores por exemplo.
+*/
+@media screen and (min-width: 992px) {
+  a {color: green;}
+  .padding-default{
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+	.margin-default{
+		margin-left: 100px !important;
+		margin-right: 100px !important;
+	}
+}
+ 
+/* 
+ Dispositivos com largura mínima de 1200 pixels. Por exemplo TVs.
+*/
+@media screen and (min-width: 1200px) {
+  a {
+  	color: black;
+  }
+}	
+
+.header--slogan .typed-cursor{
+	font-size: 4em !important;
+}
+
+.typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }

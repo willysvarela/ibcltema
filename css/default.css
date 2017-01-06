@@ -1,0 +1,239 @@
+ 
+@font-face {
+    font-family: 'YunusH';
+    src: url(font/YunusH.otf);
+} 
+@font-face {
+    font-family: 'Janda Elegant Handwriting';
+    src: url(font/JandaElegantHandwriting.ttf);
+}
+@font-face {
+    font-family: 'blackjack';
+    src: url(font/blackjack-webfont.ttf);
+}
+@font-face {
+    font-family: 'ffad_matroregular';
+    src: url('font/Matro/ffad_matro-webfont.eot');
+    src: url('font/Matro/ffad_matro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Matro/ffad_matro-webfont.woff2') format('woff2'),
+         url('font/Matro/ffad_matro-webfont.woff') format('woff'),
+         url('font/Matro/ffad_matro-webfont.ttf') format('truetype'),
+         url('font/Matro/ffad_matro-webfont.svg#ffad_matroregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+img, .full-width{
+	width: 100%;
+}
+
+.padding-default{
+	padding-right: 0%;
+	padding-left: 0%;
+}
+.margin-default{
+	margin-left: 0px;
+	margin-right: 0px;
+ }
+
+
+.btn{
+	color: #404040;
+	padding: 15px 20px 15px 20px;
+	border: 1px solid #16a085;
+	border-radius: 9px;
+	background: #ccc;	
+	transition: .5s;
+}	
+	.btn:hover{
+
+		background: #16a085;
+	}
+
+
+.row{
+margin-left: 0px;
+margin-right: 0px;
+}
+
+.padding-15{
+	padding: 15px;
+}
+
+.align-center{
+	text-align: center;
+}
+.align-left{
+	text-align: left;
+}
+
+.btn-special{
+	border: none;
+	border-radius: 0;
+	border-top: 2px solid #404040;
+	border-bottom: 2px solid #404040;	
+	background: none;
+	color: #404040;
+	transition: .5s;
+	font-family: "Impact";
+
+}
+	.btn-special:hover{
+		background: rgba(0,0,0,0.3);
+		border: none;
+		border-radius: 0;
+		border-top: 2px solid #404040;
+		border-bottom: 2px solid #404040;	
+
+	}
+
+
+.text-white *{
+	color: #fff !important;
+}
+.text-black *{
+	color: #404040 !important;
+}
+
+.paralelogramo { 
+
+}
+
+.sec-quote{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.quote{
+	font-family: 'blackjack';
+	font-size: 1.5em;
+}
+ 
+.block{
+	text-align: center;
+}
+.block .block-img{
+	height: 100px;
+}
+
+.block .block-img:hover{
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
+
+.block  .block-p{
+	position: absolute; 
+	width: 100%;
+	top: 20%; 
+	padding: 10px; 
+	color: #FFF; 
+	margin: 5px;
+}
+
+
+/**/
+
+section .title{
+	font-size: 3.4em;
+}
+section .subtitle{
+	font-size: 1.5em;
+}
+
+
+/*Card*/
+
+.card{
+		position: relative;
+		height: auto;
+	}
+	.card-bg{
+		background: url('../assets/img/bg.jpg')no-repeat;
+		opacity: 0;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		z-index: -100;
+		transition: .5s;
+	}
+	.card .card-content{
+		top: 0 !important;
+		left: 0 !important;
+	}
+	.card .card-description{
+		padding: 5%;
+	}
+		img.card-img{
+			width: 100px !important;
+			height: 100px;
+			margin-bottom: 20px; 
+		}
+
+		.card-bar{
+			margin-top: 50px;
+			width: 100%;
+			height: 10px;
+			background: #16a085;
+			transition: .5s;
+			padding-top: 13px;
+		}
+		.card-bar span{
+			opacity: 0;
+			transition: .5s;
+			margin-left: 10px;
+		}
+	.card *{
+		color: #fff !impodrtant;
+	}
+	.card:hover .card-bar{
+		height: 50px;
+		margin-top: 10px;
+	}
+		.card:hover .card-bar *{
+			opacity: 1;
+		}
+	.card .card-bg{
+		opacity: 1;
+	}
+
+
+
+@media screen and (max-width: 768px) {
+  .card .card-bar{
+		height: 50px;
+		margin-top: 10px;
+	}
+	.card .card-bar *{
+			opacity: 1;
+		}
+}
+
+/* 
+ Com uma largura mínima de 992 pixels. Monitores por exemplo.
+*/
+@media screen and (min-width: 992px) {
+  a {color: green;}
+  .padding-default{
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+	.margin-default{
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+}
+ 
+/* 
+ Dispositivos com largura mínima de 1200 pixels. Por exemplo TVs.
+*/
+@media screen and (min-width: 1200px) {
+  a {color: black;}
+}
+
+
+
+

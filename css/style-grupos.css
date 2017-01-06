@@ -1,0 +1,21 @@
+header{
+	background: url('../assets/img/bg-grupo.jpg') !important;
+	background-size: 100% 100% !important;
+}
+
+
+.img-rounded.img-Jovens{
+	border: 4px solid #4FC1E9;
+}
+.img-rounded.img-Casados{
+	border: 4px solid #FFCE54;
+}
+.img-rounded.img-Homens{
+	border: 4px solid #656D78;
+}
+.img-rounded.img-Mulheres{
+	border: 4px solid #EC87C0;
+}
+.img-rounded.img-Custom{
+	border: 4px solid #ED5565;
+}

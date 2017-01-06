@@ -1,0 +1,9 @@
+.div-mensagem .mensagem-thumbnail img{
+	width: 100%;
+	height: 100%;
+}
+.div-mensagem .mensagem-download img{
+	margin-top: 13px;
+	height: 50px;
+	width: 50px;
+}

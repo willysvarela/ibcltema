@@ -1,0 +1,14 @@
+header{
+	background: url('../assets/img/bg-church.jpg');
+	background-size:  100% 100%;
+}
+
+input{
+	color: #404040 !important;
+}
+
+
+.div-horarios{
+	background: rgba(0,0,0,0.5);
+	padding: 20px 0px 40px 0px;
+}
